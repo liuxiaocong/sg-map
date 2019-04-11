@@ -1,0 +1,64 @@
+.auto-complete-wrap {
+  position: relative;
+}
+
+.auto-complete-wrap-up {
+  z-index: 99;
+}
+
+.auto-complete-wrap .complete-wrap,
+.auto-complete-wrap .has-error-wrap {
+  display: block;
+  position: absolute;
+  margin-top: -10px;
+  margin-left: 10px;
+}
+
+.auto-complete-wrap .complete-none,
+.auto-complete-wrap .has-error-none {
+  display: none;
+}
+
+.auto-complete-wrap .input-item {
+  width: 150px;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 10px;
+  border: 1px solid #DDD;
+  border-radius: 5px;
+  margin: 0 10px;
+  color: #888;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.auto-complete-wrap .suggestion-wrap {
+  list-style: none;
+  width: 200px;
+  font-size: 12px;
+  background: #FFF;
+  border: 1px solid #EEE;
+  border-radius: 5px;
+  padding: 0;
+  max-height: 240px;
+  overflow-y: scroll;
+}
+
+.suggestion-item {
+  color: #999;
+  line-height: 36px;
+  cursor: pointer;
+  padding-left: 20px;
+}
+
+.suggestion-item:hover {
+  background: #FCFCFC;
+  color: #666;
+  font-weight: bold;
+}
+
+.auto-complete-wrap .has-error-wrap {
+  color: #F12F2F;
+  font-size: 11px;
+  margin-top: 10px;
+}
